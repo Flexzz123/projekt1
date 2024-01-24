@@ -1,0 +1,48 @@
+/**
+ * Базовые стили для всего сайта
+ */
+ body {
+	background-color: rgb(14, 15, 15);
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: white;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+ }
+header{
+	display: flex;
+	justify-content: center;
+}
+.Menu , .Logo li{
+	display: inline-block;
+	vertical-align: middle;
+}
+.Menu li{
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.Menu a{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	color: white;
+	vertical-align: middle;
+	text-decoration: none
+	
+}
+.Menu a:hover{
+	color:cyan;
+	
+}
+
+
+/**
+ * Другие стили
+ */
+
+
+
